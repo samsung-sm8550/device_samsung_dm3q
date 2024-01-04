@@ -9,12 +9,15 @@ softdep qmi_helpers pre: qrtr
 softdep spcom pre: spss_utils
 softdep c1dcvs_scmi pre: c1dcvs_vendor
 softdep flicker_sensor pre: sensors_core
+softdep plh_scmi pre: plh_vendor
 softdep qsee_ipc_irq_bridge pre: qcom_ipcc
 softdep sec_ap_pmic pre: sec_class
 softdep sec_ap_pmic pre: sec_crashkey_long
 softdep sec_ap_pmic pre: pm8941-pwrkey
 softdep smem pre: qcom_hwspinlock
+softdep cpufreq_stats_scmi pre: cpufreq_stats_vendor
 softdep dwc3_msm pre: phy-generic phy-msm-snps-hs phy-msm-ssusb-qmp eud
+softdep pinctrl_crow pre: qcom_tlmm_vm_irqchip
 softdep pinctrl_msm pre: qcom-pdc
 softdep msm_drm pre: s2dos05-regulator
 softdep leds_qti_tri_led pre: pwm-qti-lpg
