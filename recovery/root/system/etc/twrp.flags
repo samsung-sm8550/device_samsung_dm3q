@@ -32,6 +32,7 @@
 /imagefv	    emmc		/dev/block/bootdevice/by-name/imagefv
 /efuse		    emmc		/dev/block/bootdevice/by-name/efuse
 /preloader	    emmc		/dev/block/bootdevice/by-name/bootloader
+/storage        ext4        /data/media/0                               flags=display="Internal Storage";usermrf;backup=1;fsflags="bind";removable
 
 # Removable storage
-/usb-otg	vfat		/dev/block/sdg1	/dev/block/sdg			flags=display="USB-OTG";storage;wipeingui;removable
+/usb_otg	auto		/dev/block/sdg1	/dev/block/sdg			flags=display="USB-OTG";storage;wipeingui;removable
