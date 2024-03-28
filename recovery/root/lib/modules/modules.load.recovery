@@ -60,7 +60,6 @@ pinctrl-crow.ko
 pinctrl-kalama.ko
 qnoc-kalama.ko
 qnoc-crow.ko
-ns.ko
 nvmem_qcom-spmi-sdam.ko
 phy-qcom-ufs.ko
 phy-qcom-ufs-qmp-v4-kalama.ko
@@ -136,11 +135,11 @@ blk-sec-stats.ko
 blk-sec-wb.ko
 msm_show_resume_irq.ko
 mhi.ko
-mhi_cntrl_qcom.ko
 mhi_dev_uci.ko
 mhi_dev_netdev.ko
 mhi_dev_dtr.ko
 mhi_dev_satellite.ko
+mhi_cntrl_qcom.ko
 phy-qcom-ufs-qmp-v4-waipio.ko
 phy-qcom-ufs-qmp-v4.ko
 phy-qcom-ufs-qmp-v4-khaje.ko
@@ -217,11 +216,13 @@ rdbg.ko
 qcom_iommu_debug.ko
 lt9611uxc.ko
 qseecom_proxy.ko
+qcom-i2c-pmic.ko
 sec_ap_pmic.ko
 nfc_sec.ko
 sg.ko
 spi-msm-geni.ko
 smsc.ko
+mcp25xxfd.ko
 smsc75xx.ko
 smsc95xx.ko
 msm_sharedmem.ko
@@ -305,6 +306,7 @@ gh_irq_lend.ko
 gh_mem_notifier.ko
 qcom-spmi-adc5-gen3.ko
 qcom-vadc-common.ko
+qti-glink-adc.ko
 industrialio-buffer-cb.ko
 nvmem_qfprom.ko
 icc-test.ko
@@ -373,6 +375,7 @@ stm_ts_spi.ko
 slimbus.ko
 slim-qcom-ngd-ctrl.ko
 hwmon.ko
+qti_amoled_ecm.ko
 coresight.ko
 coresight-tmc.ko
 coresight-funnel.ko
